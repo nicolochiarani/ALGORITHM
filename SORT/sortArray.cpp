@@ -148,7 +148,7 @@ void Array(){
 ifstream in("inputArray.txt");
 if(!in.is_open()){
     cout<<"The input file does not exist in your directory!!"<<endl;
-    exit(-1);
+    exit(1);
 }
     int lengthArray;
     in>>lengthArray;
